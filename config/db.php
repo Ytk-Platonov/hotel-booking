@@ -1,7 +1,8 @@
 <?php
-// Методически важно: используем PDO с безопасными настройками
+session_start();
+
 $host = 'localhost';
-$dbname = 'hotel_booking';
+$dbname = 'sweet_dreams_hotel';
 $username = 'root';
 $password = '';
 
